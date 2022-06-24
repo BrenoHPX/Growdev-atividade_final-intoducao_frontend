@@ -1,0 +1,166 @@
+.body{
+    background-color:lightgrey;
+    
+        
+}
+
+.nav{
+    position: absolute;
+    background-color: rgb(224, 221, 6);
+    width: 20%;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid;
+}
+
+#elementos-nav{
+    margin-top: 10%;
+}
+
+.nav picture img{
+    width:155px;
+    border-radius: 70%;
+    border: 3px solid  rgb(94, 92, 8);
+    margin-top: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav picture img:hover{
+    width:230px;
+    border-radius: 70%;
+    border: 3px solid  rgb(94, 92, 8);
+    margin-top: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(56, 56, 13);
+    margin-bottom: 15px;
+    display: block; 
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 27px;  
+}
+
+.menu a:hover{
+    color: white;
+    opacity: 1;
+}
+
+
+.main{
+    position: absolute;
+    left: 20%;
+    right: 2%;
+    height: 500px;
+}
+
+.conteudo{
+    margin: 20% 0 25% 3%;
+}
+
+.conteudo h2{
+    font-size: 90px;
+    color:rgb(130, 128, 14);
+    font-family: 'Saira Extra Condensed', sans-serif;
+    
+}
+
+.conteudo h2 > span{
+    font-size: 90px;
+    color:#343a40;
+}
+
+
+.conteudo h3{
+    font-size: 30px;
+    color: #6c757d;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.conteudo h3 > span > a{
+    text-decoration: none;
+    font-size: 30px;
+    color:rgb(168, 165, 12);
+}
+
+.conteudo h3 > span > a:hover{
+    text-decoration: none;
+    font-size: 30px;
+    color: #665e1c;
+}
+
+.conteudo p{
+    color: #52595f;
+    font-size: 27px;
+    margin: 70px 0;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.icones a i{
+    color: #363423;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.icones a i:hover{
+    color: #665e1c;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+/*--------------------CONHECIMENTOS------------------------------------*/
+
+.conhecimentos{
+    position: absolute;
+    left: 20px;
+    margin: 2% 0 0 4%;
+    font-size: 35px;
+}
+
+.conhecimentos ol {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    left: 30%;
+    list-style-type: upper-alpha;
+}
+
+.conhecimentos ol li {
+    margin-top: 39px;
+}
+
+.conhecimentos ul {
+    list-style-type:disc;
+    font-size: smaller;
+    left: 10%;
+    position: relative;
+}
+
+.idiomas{
+    color:rgb(192, 189, 9);
+}
+
+/*--------------------OBJETIVOS------------------------------------*/
+
+.objetivos{
+    margin: -20px 0 0 4%;
+}
+.objetivos h2{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.objetivos ul {
+    list-style-type:disc;
+    position: relative;
+}
+
+.objetivos li{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: justify;
+    margin-top: 35px;
+    font-size: 28px;
+}
