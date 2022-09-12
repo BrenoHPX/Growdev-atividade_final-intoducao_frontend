@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 33vh 34vh 33vh;
+    grid-template-areas:
+    "nav main"
+    "nav main"
+    "nav main";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-image: url(images/bg.jpg);
+    background-size:contain;
+    overflow: hidden;
+}
+
+nav{
+    background-color: rgba(5, 37, 56, 0.959);
+    border: 1px solid;
+    border-color: aliceblue;
+
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block; 
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 1.6vw;
+}
+
+.menu a:hover{
+    opacity: 0.6;
+}
+
+.menu .selected{
+    opacity: 0.4;
+}
+
+.elementosNav #profilePicture{
+    width:12vw;
+    border-radius: 30%;
+    border: 3px solid  rgb(48, 2, 2);
+    box-shadow: 0px 0px 80px rgba(255, 255, 255, 0.158);
+    margin-bottom: 3vh;
+}
+
+.elementosNav #profilePicture:hover{
+    width:12;
+    border-radius: 30%;
+    border: 3px solid  rgb(48, 2, 2);
+    box-shadow: 0px 0px 80px rgba(255, 255, 255, 0.74);
+    margin-bottom: 3vh;
+    transition-duration: 1s;
+}
+
+main{
+    background-color:rgba(16, 19, 24, 0.973);
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo h1{
+    font-size: 7vw;
+    color:aliceblue;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.conteudo h1 > span{
+    font-size: 7.5vw;
+    color: rgb(19, 43, 63);
+    text-shadow: 0px 0px 2px black, 0px 0px 2px rgb(255, 255, 255), 5px 5px 10px white;
+    transition-duration: 3s;
+}
+
+.conteudo h1 > span:hover{
+    font-size: 7.5vw;
+    color: aliceblue;
+    text-shadow: 0px 0px 2px black, 0px 0px 2px rgb(255, 255, 255), 5px 5px 10px rgba(41, 79, 160, 0.712);
+}
+
+.conteudo h2{
+    font-size: 2vw;
+    color: white;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.conteudo h2 > span > a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+    text-shadow: 0px 0px 30px rgb(24, 122, 179);
+}
+
+.conteudo h2 > span > a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    transition-duration: 2s;
+}
+
+.conteudo p{
+    color: white;
+    text-shadow: 0px 0px 20px rgba(24, 122, 179, 0.233);
+    font-size: 2vw;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.icones a i{
+    margin: 0.4vw;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px  rgba(255, 255, 255, 0.144);
+}
+
+.icones a i:hover{
+    color: #f8f7ed;
+    text-shadow: 0px 0px 20px blue;
+    text-decoration: none;
+}
+
+/* -------------------------CONHECIMENTOS---------------------------- */
+
+.conhecimentos{
+    grid-area: main;
+    font-size: 2.5vw;
+    align-self: flex-start;
+    margin: 0vw 2vw 2vw 4vw;
+}
+
+.conhecimentos ol {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    list-style-type: upper-alpha;
+}
+.conhecimentos ol li {
+    margin: -0.75vw;
+}
+
+.conhecimentos ol li:hover {
+    margin: -0.75vw;
+    text-shadow: 0px 0px 10px blue;
+}
+
+.conhecimentos ul {
+    list-style-type:disc;
+    font-size: smaller;
+    margin-left: 2vw;;
+}
+
+.idiomas{
+    color: rgb(24, 122, 179);
+}
+
+#owl{
+    position: absolute;
+    top:-8vh;;
+    left:50vw;
+    width: 40vw;
+    opacity: 0;
+}
+#owl:hover{
+    position: absolute;
+    top:-8vh;;
+    left:50vw;
+    width: 40vw;
+    opacity: 0.1;
+    transition-duration: 10s;
+}
+
+/*--------------------OBJETIVOS------------------------------------*/
+
+.objetivos{
+    margin: 0vw 2vw 2vw 4vw;
+}
+
+.objetivos h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 3vw;
+    margin-top: 1vw;
+
+    text-shadow: 0px 0px 80px rgba(255, 255, 255, 0.699), 0px 0px 20px rgba(0, 0, 255, 0.692);
+}
+
+.objetivos h1:hover{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 3vw;
+    margin-top: 1vw;
+    transition-duration: 2s;
+
+    text-shadow: 0px 0px 30px rgba(53, 53, 199, 0.692);
+}
+
+.objetivos ul {
+    list-style-type:disc;
+}
+
+.objetivos li{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: justify;
+
+    font-size: 2vw;
+    margin: -0.5vw;
+}
